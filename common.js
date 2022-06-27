@@ -1,6 +1,5 @@
 const request = function (url,method,data){
-    const http = 'http://www.bmos.io/';
-    //const http = 'https://doc.qincaika.top/'
+    const http = 'you URL';
     if (method == 'post' || method == 'POST'){
    return new Promise((resolve,reject)=>{
        axios({
