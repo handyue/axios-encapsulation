@@ -1,5 +1,5 @@
 const request = function (url,method,data){
-    const http = 'you URL';
+    const http = 'ENTER URL';
     if (method == 'post' || method == 'POST'){
    return new Promise((resolve,reject)=>{
        axios({
